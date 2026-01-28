@@ -1,0 +1,132 @@
+{
+  "projectName": "atelier-de-retouche",
+  "colors": {
+    "primary": "#2C3E50",
+    "primaryForeground": "#FFFFFF",
+    "secondary": "#8E7CC3",
+    "secondaryForeground": "#FFFFFF",
+    "accent": "#D4AF37",
+    "accentForeground": "#1A1A1A",
+    "background": "#FAFAFA",
+    "foreground": "#2C3E50",
+    "muted": "#F5F5F5",
+    "mutedForeground": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "typography": {
+    "headingFont": "Playfair Display",
+    "bodyFont": "Lato",
+    "baseFontSize": "16px"
+  },
+  "layout": [
+    {
+      "name": "Header",
+      "description": "Fixed navigation with logo, business name, and navigation links to page sections"
+    },
+    {
+      "name": "Hero",
+      "description": "Full-width hero section with business name, tagline about clothing alterations and transformations, and call-to-action button"
+    },
+    {
+      "name": "About",
+      "description": "Section introducing the atelier, its expertise in alterations of all clothing types, and the premium Mongolian cashmere offering"
+    },
+    {
+      "name": "Services",
+      "description": "Grid or list showcasing services: clothing alterations, curtains, leather work, jeans, dresses, wedding dresses, suits, garment transformations, and dry cleaning partnership"
+    },
+    {
+      "name": "Opening Hours",
+      "description": "Clear display of weekly schedule with Monday afternoon through Saturday morning hours"
+    },
+    {
+      "name": "Location/Contact",
+      "description": "Contact information with address, phone, email, embedded map showing Chêne-Bourg location, and note about pickup by appointment only"
+    },
+    {
+      "name": "Footer",
+      "description": "Footer with social media link (Facebook), copyright, and repeat of essential contact info"
+    }
+  ],
+  "components": [
+    {
+      "name": "DisclaimerModal",
+      "purpose": "Initial modal displaying draft preview disclaimer with dismiss button"
+    },
+    {
+      "name": "Navbar",
+      "purpose": "Responsive navigation bar with logo and anchor links to sections"
+    },
+    {
+      "name": "HeroSection",
+      "purpose": "Eye-catching landing section with business name and value proposition"
+    },
+    {
+      "name": "AboutSection",
+      "purpose": "Text section describing the business expertise and offerings"
+    },
+    {
+      "name": "ServiceCard",
+      "purpose": "Individual service display card for each alteration type offered"
+    },
+    {
+      "name": "ServicesGrid",
+      "purpose": "Responsive grid container for service cards"
+    },
+    {
+      "name": "OpeningHoursTable",
+      "purpose": "Formatted table showing days and times of operation"
+    },
+    {
+      "name": "ContactInfo",
+      "purpose": "Display component for phone, email, and address with icons"
+    },
+    {
+      "name": "MapEmbed",
+      "purpose": "Interactive map showing business location at coordinates 46.194523, 6.195346"
+    },
+    {
+      "name": "SocialLinks",
+      "purpose": "Social media icon links (Facebook)"
+    },
+    {
+      "name": "Footer",
+      "purpose": "Site footer with copyright and essential links"
+    }
+  ],
+  "featureImplementations": [
+    {
+      "feature": "Disclaimer Modal",
+      "implementation": "Create a modal component that appears on first visit, stores dismissal in localStorage, displays draft preview warning in French"
+    },
+    {
+      "feature": "Single-Page Navigation",
+      "implementation": "Smooth scroll navigation to anchor sections, sticky header with active section highlighting"
+    },
+    {
+      "feature": "Responsive Design",
+      "implementation": "Mobile-first approach, hamburger menu for mobile, flexible grid layouts, readable typography at all sizes"
+    },
+    {
+      "feature": "Multi-language Support",
+      "implementation": "Default French (postal code 1xxx), with URL structure for /de, /fr, /it, /en translations"
+    },
+    {
+      "feature": "Logo Integration",
+      "implementation": "Download and use provided logo from staticlocal.ch, set as favicon, display in header"
+    },
+    {
+      "feature": "SEO Meta Tags",
+      "implementation": "Title: Atelier de Retouche de A à Z | Chêne-Bourg, meta description summarizing services, Open Graph tags, lang=fr"
+    },
+    {
+      "feature": "Map Integration",
+      "implementation": "Embed map showing Rue Peillonnex 3, 1225 Chêne-Bourg with marker at provided coordinates"
+    },
+    {
+      "feature": "Appointment Notice",
+      "implementation": "Prominent notice in contact section that pickup is by appointment only"
+    }
+  ],
+  "additionalNotes": "The website should reflect the artisanal, professional nature of a tailoring atelier. The color palette combines sophisticated navy/slate (primary) with elegant purple (secondary) and gold accents to convey craftsmanship and quality. Playfair Display for headings adds elegance suitable for a boutique alterations shop, while Lato provides clean readability for body text. The design should feel welcoming yet professional, highlighting the wide range of services from everyday alterations to wedding dress modifications. Special emphasis should be placed on the premium Mongolian cashmere offering and the partnership with dry cleaners as value-added services. All content should be in French as the primary language given the Chêne-Bourg (Geneva area) location. No emojis should be used despite any in the source content."
+}

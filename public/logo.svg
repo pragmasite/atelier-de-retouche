@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="12" fill="#2C3E50"/>
+  <g fill="#D4AF37">
+    <!-- Scissors icon stylized -->
+    <circle cx="40" cy="45" r="12" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <circle cx="80" cy="45" r="12" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <path d="M52 45 L68 45" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    <path d="M48 53 L60 85" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    <path d="M72 53 L60 85" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="60" y="108" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#FFFFFF">A-Z</text>
+</svg>
